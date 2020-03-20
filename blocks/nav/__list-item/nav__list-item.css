@@ -1,0 +1,13 @@
+.nav__list-item {
+    margin-right: 3.75em;
+    transition: all 0.3s ease;
+}
+
+.nav__list-item:last-of-type {
+    margin-right: 0;
+}
+
+.nav__list-item:hover {
+    transform: scale(1.1);
+    color: #111B47;
+}

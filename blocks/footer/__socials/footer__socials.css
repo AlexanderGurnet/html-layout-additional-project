@@ -1,0 +1,13 @@
+        .footer__socials {
+            display: flex;
+            list-style: none;
+            width: 12.0625rem;
+            justify-content: space-between;
+            padding: 0;
+        }
+        
+        @media screen and (max-width: 760px) {
+            .footer__socials {
+                width: 100%;
+            }
+        }

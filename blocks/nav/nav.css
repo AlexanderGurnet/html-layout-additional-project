@@ -1,0 +1,12 @@
+@import url('./__list/nav__list.css');
+@import url('./__list-item/nav__list-item.css');
+.nav {
+    align-self: center;
+}
+
+@media screen and (max-width: 960px) {
+    .nav {
+        align-self: center;
+        justify-self: center;
+    }
+}

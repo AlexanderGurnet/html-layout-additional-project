@@ -1,0 +1,25 @@
+.price__bg-fig {
+    position: absolute;
+    top: -8rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: url('../../../images/Path.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 17.75rem 0;
+    max-width: 66.25rem;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1060px) {
+    .price__bg-fig {
+        background-size: cover;
+        top: -2rem;
+        padding: 11.75rem 0;
+    }
+}

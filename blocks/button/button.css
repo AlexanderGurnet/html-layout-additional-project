@@ -1,0 +1,22 @@
+@import url('./_size/button_size_small.css');
+@import url('./_size/button_size_large.css');
+@import url('./_theme/button_theme_filled.css');
+@import url('./_theme/button_theme_has-border.css');
+.button {
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px gold;
+}

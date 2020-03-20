@@ -1,0 +1,22 @@
+@import url('./__bg/price__bg.css');
+@import url('./__bg-fig/price__bg-fig.css');
+@import url('./__paragraph/price__paragraph.css');
+@import url('./__paragraph-gray/price__paragraph-gray.css');
+@import url('./__cost-caption/price__cost-caption.css');
+@import url('./__cost/price__cost.css');
+@import url('./__button/price__button.css');
+.price {
+    position: relative;
+    height: 62.25rem;
+    width: 100%;
+    z-index: 0;
+}
+
+@media screen and (max-width: 760px) {
+    .price {
+        position: relative;
+        height: 42.25rem;
+        width: 100%;
+        z-index: 0;
+    }
+}

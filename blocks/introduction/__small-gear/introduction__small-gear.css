@@ -1,0 +1,12 @@
+.introduction__small-gear {
+    position: absolute;
+    top: 19rem;
+    right: 1.5rem;
+    animation: rotate 13s linear infinite reverse forwards;
+}
+
+@media screen and (max-width: 960px) {
+    .introduction__small-gear {
+        display: none;
+    }
+}

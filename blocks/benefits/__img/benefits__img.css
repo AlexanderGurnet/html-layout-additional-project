@@ -1,0 +1,25 @@
+.benefits__img {
+    width: calc((100% - 1.875rem)/2);
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1160px) {
+    .benefits__img {
+        width: 100%;
+        max-width: 35rem;
+        margin-top: 2rem;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .benefits__img {
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .benefits__img {
+        margin-top: 19rem;
+    }
+}

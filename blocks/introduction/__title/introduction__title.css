@@ -1,0 +1,17 @@
+.introduction__title {
+    margin: 16.25rem 0 1.25rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.125em;
+    line-height: 1.32em;
+    letter-spacing: 1px;
+    color: #091133;
+    max-width: 33.6875rem;
+}
+
+@media screen and (max-width: 960px) {
+    .introduction__title {
+        margin: 16.25rem auto 1.25rem;
+    }
+}

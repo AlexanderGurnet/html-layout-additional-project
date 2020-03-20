@@ -1,0 +1,17 @@
+.footer__paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875em;
+    line-height: 1.2em;
+    color: #939EA4;
+    align-self: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+    .footer__paragraph {
+        align-self: center;
+        justify-self: center;
+    }
+}

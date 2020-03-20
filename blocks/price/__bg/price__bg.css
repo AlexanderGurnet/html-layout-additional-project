@@ -1,0 +1,9 @@
+.price__bg {
+    position: absolute;
+    background-image: url('../../../images/Rectangle.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

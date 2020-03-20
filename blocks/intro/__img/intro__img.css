@@ -1,0 +1,12 @@
+.intro__img {
+    object-fit: contain;
+    object-position: center center;
+    min-width: 20rem;
+}
+
+@media screen and (max-width: 960px) {
+    .intro__img {
+        object-fit: cover;
+        width: 10rem;
+    }
+}

@@ -1,0 +1,16 @@
+.benefits__paragraph {
+    margin: 0 0 1.3rem;
+}
+
+.benefits__paragraph:last-of-type {
+    margin: 0 0 5rem;
+}
+
+@media screen and (max-width: 1160px) {
+    .benefits__paragraph {
+        width: 100%;
+    }
+    .benefits__paragraph:last-of-type {
+        margin: 0 auto 5rem;
+    }
+}

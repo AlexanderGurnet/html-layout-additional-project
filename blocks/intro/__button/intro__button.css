@@ -1,0 +1,9 @@
+    .intro__button {
+        width: 11.8125rem;
+    }
+    
+    @media screen and (max-width: 960px) {
+        .intro__button {
+            display: none;
+        }
+    }

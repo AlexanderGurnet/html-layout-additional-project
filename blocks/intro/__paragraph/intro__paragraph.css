@@ -1,0 +1,7 @@
+.intro__paragraph {
+    margin: 0 0 1.3rem;
+}
+
+.intro__paragraph:last-of-type {
+    margin: 0 0 2.25rem;
+}

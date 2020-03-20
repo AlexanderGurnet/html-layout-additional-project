@@ -1,0 +1,11 @@
+.introduction__content-block {
+    max-width: 69.375rem;
+    margin: auto;
+}
+
+@media screen and (max-width: 960px) {
+    .introduction__content-block {
+        width: 100%;
+        margin: auto;
+    }
+}

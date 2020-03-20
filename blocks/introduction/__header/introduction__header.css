@@ -1,0 +1,17 @@
+.introduction__header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    min-height: 3.65rem;
+    max-width: 69.375rem;
+    margin: auto;
+}
+
+@media screen and (max-width: 960px) {
+    .introduction__header {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 2.5rem);
+        height: 1.65rem;
+    }
+}

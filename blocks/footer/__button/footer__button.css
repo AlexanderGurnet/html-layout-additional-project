@@ -1,0 +1,14 @@
+        .footer__button {
+            width: 6.8125rem;
+            align-self: center;
+            justify-self: flex-end;
+        }
+        
+        @media screen and (max-width: 760px) {
+            .footer__button {
+                width: 6.8125rem;
+                margin-top: 1rem;
+                align-self: center;
+                justify-self: center;
+            }
+        }

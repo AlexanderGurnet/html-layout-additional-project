@@ -1,0 +1,10 @@
+@import url('./_size/paragraph_size_m.css');
+@import url('./_size/paragraph_size_s.css');
+@import url('./_size/paragraph_size_xs.css');
+@import url('./_theme/paragraph_theme_colorful.css');
+@import url('./_theme/paragraph_theme_gray.css');
+.paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}

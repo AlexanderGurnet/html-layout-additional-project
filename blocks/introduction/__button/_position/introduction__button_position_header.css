@@ -1,0 +1,5 @@
+.introduction__button_position_header {
+    align-self: center;
+    justify-self: flex-end;
+    min-width: 10rem;
+}

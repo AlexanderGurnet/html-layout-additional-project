@@ -1,0 +1,16 @@
+@import url('./__uix/footer__uix.css');
+@import url('./__paragraph/footer__parargraph.css');
+@import url('./__button/footer__button.css');
+@import url('./__nav/footer__nav.css');
+@import url('./__socials/footer__socials.css');
+@import url('./__link/footer__link.css');
+.footer {
+    box-sizing: border-box;
+    position: relative;
+    margin-top: -10.0625rem;
+    width: 100%;
+    min-height: 13.5rem;
+    background-color: #E7ECFF;
+    padding: 4.8125rem 0 0;
+    z-index: 1;
+}

@@ -1,0 +1,13 @@
+.introduction__big-gear {
+    position: absolute;
+    top: 16rem;
+    right: 7rem;
+    animation: rotate 20s linear infinite forwards;
+}
+
+@media screen and (max-width: 960px) {
+    .introduction__big-gear {
+        top: 10rem;
+        right: 40%;
+    }
+}
